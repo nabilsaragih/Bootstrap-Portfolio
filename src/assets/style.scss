@@ -1,0 +1,62 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.font-pr {
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.font-pm {
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.font-psb {
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.font-pb {
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.bg-first {
+    background-color: #646FD4;
+}
+
+.bg-second {
+    background-color: #9BA3EB;
+}
+
+.bg-third {
+    background-color: #242F9B;
+}
+
+.text-first {
+    color: #DBDFFD;
+}
+
+.text-second {
+    color: #242F9B;
+}
+
+.text-third {
+    color: #9BA3EB;
+}
+
+.top-buffer { 
+    margin-top: 7.5em;
+}
+
+#nav1 {
+    background-color: #646FD4;
+    opacity: 2;
+    filter: opacity(50);
+    color: #DBDFFD !important;
+}
+
+.fs-55 {
+    font-size: 18px;
+}
