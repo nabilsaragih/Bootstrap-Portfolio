@@ -4,7 +4,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11107,6 +11107,16 @@ fieldset:disabled .btn {
   font-weight: 700;
 }
 
+.font-peb {
+  font-family: "Poppins";
+  font-weight: 800;
+}
+
+.font-pbl {
+  font-family: "Poppins";
+  font-weight: 900;
+}
+
 .bg-first {
   background-color: #646FD4;
 }
@@ -11117,6 +11127,10 @@ fieldset:disabled .btn {
 
 .bg-third {
   background-color: #242F9B;
+}
+
+.bg-fourth {
+  background-color: #DBDFFD;
 }
 
 .text-first {
@@ -11132,7 +11146,7 @@ fieldset:disabled .btn {
 }
 
 .top-buffer {
-  margin-top: 7.5em;
+  margin-top: 10em;
 }
 
 #nav1 {
@@ -11144,5 +11158,17 @@ fieldset:disabled .btn {
 
 .fs-55 {
   font-size: 18px;
+}
+
+#home-h3 {
+  margin-bottom: 10em;
+}
+
+#about {
+  padding-top: 6rem;
+}
+
+#about-row {
+  margin-bottom: 5em;
 }
 /*# sourceMappingURL=style.css.map */
