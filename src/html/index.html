@@ -11,47 +11,47 @@
 
         <!-- Navbar Start -->
 
-        <header>
-            <div>
-                <nav class="navbar navbar-expand-lg navbar-dark transparent fixed-top" id="nav1">
-                    <div class="container">       
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></s>
-                        </button>
-                        <div class="collapse navbar-collapse text-white font-pm" id="navbarNav">
-                            <ul class="navbar-nav m-auto">
-                                <li class="nav-item col-6 col-lg-auto">
-                                <a class="nav-link active py-2 px-0 px-lg-2" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item col-6 col-lg-auto">
-                                <a class="nav-link py-2 px-0 px-lg-2" href="#about">About</a>
-                                </li>
-                                <li class="nav-item col-6 col-lg-auto">
-                                <a class="nav-link py-2 px-0 px-lg-2" href="#project">Project</a>
-                                </li>
-                                <li class="nav-item col-6 col-lg-auto">
-                                <a class="nav-link py-2 px-0 px-lg-2" href="#certificate">Certificate</a>
-                                </li>
-                                <li class="nav-item col-6 col-lg-auto">
-                                <a class="nav-link py-2 px-0 px-lg-2" href="#blog">Blog</a>
-                                </li>
-                            </ul>
-                        </div>
+        <header class="header-area overlay font-pm">
+
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container">
+                    <a href="#" class="navbar-brand">nabilsaragih</a>
+                    
+                    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+                        <span class="menu-icon-bar"></span>
+                        <span class="menu-icon-bar"></span>
+                        <span class="menu-icon-bar"></span>
+                    </button>
+                    
+                    <div id="main-nav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto fs-5">
+                            <li><a href="#home" class="nav-item nav-link active">Home</a></li>
+                            <li><a href="#about" class="nav-item nav-link">About</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-item nav-link" data-toggle="dropdown">Portfolio</a>
+                                <div class="dropdown-menu">
+                                    <a href="#project" class="dropdown-item">Project</a>
+                                    <a href="#certificate" class="dropdown-item">Certificate</a>
+                                </div>
+                            </li>
+                            <li><a href="#blog" class="nav-item nav-link">Blog</a></li>
+                        </ul>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
+            
         </header>
 
         <!-- Navbar End -->
 
-        <main>
+        <body>
 
             <!-- Hero Section Start -->
 
             <section class="bg-first" id="home">
                 <div>
                     <h1 class="text-center text-white font-pm top-buffer fs-5 mb-lg-0">Hello, I am <br><span class="fs-1 font-psb text-white pt-3">Nabil</span></h1>
-                    <h2 class="text-center font-pm fs-55 my-n3 mb-1 text-third">Lorem, ipsum.</h2>
+                    <h2 class="text-center font-pm fs-55  mb-1 text-third">Lorem, ipsum.</h2>
                     <h3 class="text-center font-pm text-second fs-55 my-n3" id="home-h3">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#DBDFFD" fill-opacity="1" d="M0,192L26.7,181.3C53.3,171,107,149,160,160C213.3,171,267,213,320,213.3C373.3,213,427,171,480,170.7C533.3,171,587,213,640,208C693.3,203,747,149,800,154.7C853.3,160,907,224,960,240C1013.3,256,1067,224,1120,213.3C1173.3,203,1227,213,1280,208C1333.3,203,1387,181,1413,170.7L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
@@ -101,10 +101,12 @@
             </section>
 
             <!-- Project Section End -->
-        </main>
+        </body>
 
-        <!-- Bootstrap JS -->
+        <!-- JS Section -->
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js" async defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="../js/scripts.js"></script>
 
     </body>
 </html>
