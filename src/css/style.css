@@ -11173,4 +11173,8 @@ fieldset:disabled .btn {
   background-color: #646FD4;
   color: white;
 }
+
+.fa-regular {
+  font-family: FontAwesome !important;
+}
 /*# sourceMappingURL=style.css.map */
