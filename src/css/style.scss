@@ -168,7 +168,7 @@
 
 .navbar .dropdown-menu {
         padding: 0;
-        background-color: rgba(0, 0, 0, .9);
+        background-color: rgba(100, 111, 212, .9);
 }
 
 .navbar .dropdown-menu .dropdown-item {
@@ -185,7 +185,7 @@
 
 .navbar .dropdown-menu .dropdown-item:hover {
         background: transparent;
-        color: #646FD4;
+        color: #242F9B;
 }
 
 .navbar .dropdown-menu .dropdown-item::before {
@@ -195,7 +195,7 @@
         left: 0;
         top: 0;
         width: 5px;
-        background-color: #646FD4;
+        background-color: #242F9B;
         opacity: 0;
         transition: opacity 0.2s ease-in;
 }
