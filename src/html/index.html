@@ -106,7 +106,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel owl-theme carousel-wrapper">
                             <div class="item mb-4">
                                 <div class="card border-0 shadow">
                                     <img src="https://source.unsplash.com/WN5_7UBc7cw" alt="" class="card-img-top">
@@ -191,8 +191,12 @@
         <script>
             $('.owl-carousel').owlCarousel({
                 loop: true,
-                margin: 10,
-                nav: false,
+                margin: 15,
+                nav: true,
+                navText: [
+                    '<i class="fas fa-circle-chevron-left"></i>',
+                    '<i class="fas fa-circle-chevron-right"></i>',
+                ],
                 autoplay: true,
                 autoplayTimeout: 5000,
                 autoplayHoverPause: true,
@@ -204,7 +208,7 @@
                         items:3
                     },
                     1000:{
-                        items:5
+                        items:4
                     }
                 }
             })
