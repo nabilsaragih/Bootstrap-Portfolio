@@ -10,7 +10,8 @@ configObj = {
     "buttonWidth":"48px",
     "buttonHeight":"48px",
     "svgWidth":"40px",
-    "svgHeight":"40px"
+    "svgHeight":"40px",
+    "zIndex":"9999"
 };
 
 function createButton(obj, pageSimulator) {    
@@ -20,7 +21,8 @@ function createButton(obj, pageSimulator) {
     backToTopButton.id = "softr-back-to-top-button";    
     pageSimulator ? pageSimulator.appendChild(backToTopButton) : body.appendChild(backToTopButton);    
     backToTopButton.style.width = obj.buttonWidth;    
-    backToTopButton.style.height = obj.buttonHeight;    
+    backToTopButton.style.height = obj.buttonHeight;
+    backToTopButton.style.zIndex = obj.zIndex;    
     backToTopButton.style.marginRight = obj.buttonDToRight;    
     backToTopButton.style.marginBottom = obj.buttonDToBottom;    
     backToTopButton.style.borderRadius = obj.roundnessSize;    
