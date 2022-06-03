@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
+#about {
+    padding-top: 200px !important;
+}
+
+#project {
+    padding-top: 40px !important;
+}
+
 .font-pr {
     font-family: "Poppins";
     font-weight: 400;
@@ -91,4 +99,10 @@
 
 .fa-solid {
     font-family: FontAwesome !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: #242F9B;
+    --bs-btn-hover-bg: #{shade-color(#242F9B, 10%)};
+    --bs-btn-border-color: var(--bd-violet);
 }

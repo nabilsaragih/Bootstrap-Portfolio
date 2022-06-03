@@ -11087,6 +11087,14 @@ fieldset:disabled .btn {
   }
 }
 
+#about {
+  padding-top: 200px !important;
+}
+
+#project {
+  padding-top: 40px !important;
+}
+
 .font-pr {
   font-family: "Poppins";
   font-weight: 400;
@@ -11174,7 +11182,13 @@ fieldset:disabled .btn {
   color: white;
 }
 
-.fa-cog .fa-solid {
+.fa-solid {
   font-family: FontAwesome !important;
+}
+
+.btn-primary {
+  --bs-btn-bg: #242F9B;
+  --bs-btn-hover-bg: #202a8c;
+  --bs-btn-border-color: var(--bd-violet);
 }
 /*# sourceMappingURL=style.css.map */

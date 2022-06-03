@@ -8,22 +8,22 @@
 
 .owl-prev {
     position: absolute;
-    top: 33%;
-    left: 40px;
+    top: 40%;
+    left: 30px;
     display: block !important;
     border:0px solid black;
 }
 
 .owl-next {
     position: absolute;
-    top: 33%;
-    right: 40px;
+    top: 40%;
+    right: 30px;
     display: block !important;
     border:0px solid black;
 }
 
 .owl-prev i, .owl-next i {
-    transform : scale(2,2); 
+    transform : scale(2.3,2.3); 
     color: #9BA3EB;
     background-color: white;
     border-radius: 50%;
